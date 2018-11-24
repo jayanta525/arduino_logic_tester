@@ -26,16 +26,16 @@ void setmode(){
 	pinMode(,INPUT);
 }
 void andgate(){
-	
+	setmode();
 }
 void notgate(){
-	
+	setmode();
 }
 void orgate(){
-	
+	setmode();
 }
 void nandgate(){
-	
+	setmode();
 }
 void norgate(){
 	pinMode(,OUPUT);
@@ -52,5 +52,5 @@ void norgate(){
 	pinMode(,INPUT);
 }
 void xorgate(){
-	
+	setmode();
 }
